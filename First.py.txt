@@ -1,0 +1,27 @@
+﻿If_else
+
+1) grade code
+p=50
+O: p>75
+A: 60 < p>75
+B: 50<p<60
+C: 35<p<50
+fail: p<35
+
+Code:-
+
+a=int(input("Enter your percentage : "))
+if(a>75):
+    print("Your grade is O ")
+elif(a<=75 and a>=60):
+    print("Your grade is A ")
+elif(a<=60 and a>=50):
+    print("Your grade is B ")
+elif(a<=50 and a>=35):
+    print("Your grade is C ")
+else:
+    print("You are fail")
+
+
+
+
