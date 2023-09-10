@@ -23,5 +23,20 @@ else:
     print("You are fail")
 
 
+"""
+2) n is divisible by 2 or 3
+n=7
+2 divisble, 3 not
+divisible by 2, and 3
+divisible by 3, not 2
+not divisible by 2, and 3
+
+Code:-
+
+n=7
+if(n%2 | n%3):
+   print("Yes")
+
+
 
 
