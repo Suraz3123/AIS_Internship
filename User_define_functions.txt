@@ -1,0 +1,104 @@
+#User_define_functions
+
+1) Star (3)
+
+Code:-
+
+def star(a):
+    for i in range(1, a+1):
+        for j in range(1, i+1):
+            print("*",end=" ")
+		print()
+star(a=int(input("Enter the number of stars :")))
+
+
+"""
+2) Multiplication of 3 numbers (mult)
+
+Code:-
+
+def mult(a,b,c):
+    print(a*b*c)
+
+
+"""
+3) Power function (power)
+
+Code:-
+
+def power(a,b):
+    print(a**b)
+power(2,4)
+
+
+"""
+4) Cube if any number (cube())
+
+Code:-
+
+def cube(a):
+    print(a**3)
+cube(int(input("Enter the number:")))
+
+
+"""
+5)  Variance of given 5 values (var())
+
+Code:_
+
+import statistics as s
+var=(1,2,3,4,5)
+print(s.variance(var))
+
+6) Calculate given values
+
+Code:-
+
+import statistics as s
+a=[]
+for i in range (1,6): 
+    int(input("Enter the number:")) 
+    a.append(i)
+var=(s.variance(a)) 
+print("The variance is:",var)
+
+
+"""
+8) Addition of only even numbers
+
+Code:-
+
+def even_add(number): 
+    a=0
+    for i in number: 
+        if i%2==0:
+            a=a+i 
+        return a
+number=[1,2,3,4,5,6,7,8,9]
+print(even_add(number))
+
+
+"""
+9) Print your name as specific times
+
+Code:-
+ 
+def own():
+    for i in range(1,36):
+    print(i,"Welcome")
+own()
+
+
+"""
+10) Create a list of specific range
+
+Code:-
+
+def create_list(a,b): 
+    i=1
+    l=[]
+    for i in range(a,b): 
+        l.append(i) 
+        i+i+1
+    print(l) 
+create_list(20,56)
