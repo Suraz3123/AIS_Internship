@@ -101,7 +101,7 @@ upper_case(a)
 
 
 """
-8) count lower case and upper case letter. 
+8) Count lower case and upper case letter. 
 
 Code:-
 
