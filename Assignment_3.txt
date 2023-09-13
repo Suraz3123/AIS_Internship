@@ -55,6 +55,8 @@ def combo(a,b):
 s="python" 
 combo(s,2)
 
+
+"""
 5) Write a Python function total number of permutation.
 
 Code:-
@@ -101,7 +103,7 @@ upper_case(a)
 
 
 """
-8) Count lower case and upper case letter. 
+8) Count lower case and upper case letters. 
 
 Code:-
 
